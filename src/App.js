@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    document.title = "StyleSpeech Demo";
+    document.title = "LatentSpeech Demo";
   }, []);
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
               <th>Context</th>
               <th>FastSpeech</th>
               <th>StyleSpeech</th>
+              <th>LatentSpeech</th>
           </tr>
           <tr>
               <td>红鲤鱼与绿鲤鱼 (hong2, li3, yu2, yu3, lv4, li3, yu2)</td>
@@ -25,6 +26,11 @@ function App() {
               <td>
                   <audio controls>
                       <source src="/demo/StyleSpeech_0.wav" type="audio/mpeg"></source>
+                  </audio>
+              </td>
+              <td>
+                  <audio controls>
+                      <source src="/demo/LatentSpeech_0.wav" type="audio/mpeg"></source>
                   </audio>
               </td>
           </tr>
@@ -40,6 +46,11 @@ function App() {
                       <source src="/demo/StyleSpeech_1.wav" type="audio/mpeg"></source>
                   </audio>
               </td>
+              <td>
+                  <audio controls>
+                      <source src="/demo/LatentSpeech_1.wav" type="audio/mpeg"></source>
+                  </audio>
+              </td>
           </tr>
           <tr>
               <td>从东边来了个喇嘛 (cong2 dong1 bian1 lai2 le ge4 la3 ma)</td>
@@ -51,6 +62,11 @@ function App() {
               <td>
                   <audio controls>
                       <source src="/demo/StyleSpeech_2.wav" type="audio/mpeg"></source>
+                  </audio>
+              </td>
+              <td>
+                  <audio controls>
+                      <source src="/demo/LatentSpeech_2.wav" type="audio/mpeg"></source>
                   </audio>
               </td>
           </tr>
@@ -66,6 +82,11 @@ function App() {
                       <source src="/demo/StyleSpeech_3.wav" type="audio/mpeg"></source>
                   </audio>
               </td>
+              <td>
+                  <audio controls>
+                      <source src="/demo/LatentSpeech_3.wav" type="audio/mpeg"></source>
+                  </audio>
+              </td>
           </tr>
           <tr>
               <td>卤鸭、酱鸡、腊肉 (lu3 ya1 、 jiang4 ji1 、 la4 rou4)</td>
@@ -79,6 +100,11 @@ function App() {
                       <source src="/demo/StyleSpeech_4.wav" type="audio/mpeg"></source>
                   </audio>
               </td>
+              <td>
+                  <audio controls>
+                      <source src="/demo/LatentSpeech_4.wav" type="audio/mpeg"></source>
+                  </audio>
+              </td>
           </tr>
           <tr>
               <td>任命是任命，人名是人名 (ren4 ming4 shi4 ren4 ming4 ， ren2 ming2 shi4 ren2 ming2)</td>
@@ -90,6 +116,11 @@ function App() {
               <td>
                   <audio controls>
                       <source src="/demo/StyleSpeech_5.wav" type="audio/mpeg"></source>
+                  </audio>
+              </td>
+              <td>
+                  <audio controls>
+                      <source src="/demo/LatentSpeech_5.wav" type="audio/mpeg"></source>
                   </audio>
               </td>
           </tr>
